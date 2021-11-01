@@ -1,0 +1,103 @@
+body {
+    margin: 0px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+h1 {
+    font-size: 5.625rem;
+    /* 100% = 1px, 90px == (90/16) == n%
+    16px == 100% == 1em. */
+    margin: 50px auto 0 auto;
+    font-family: 'Sacramento', cursive;
+    color: #66BFBF;
+}
+
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    color: #66BFBF;
+    font-weight: normal;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #E4F9F5;
+    position: relative;
+    padding-top: 100px;
+}
+
+hr {
+    width: 4%;
+    border-style: dotted none none;
+    border-width: 5px;
+    color: #EAF6F6;
+}
+
+.middle-container {
+    margin-bottom: 40px;
+}
+
+.bottom-container {
+    padding-top: 10px;
+    height: 100px;
+    background-color: #66BFBF;
+    line-height: 2;
+}
+
+.bottom-cloud {
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    line-height: 2;
+    text-align: left;
+}
+
+.chillies-img {
+    width: 25%;
+    float: right;
+    padding-left: 30px;
+}
+
+.skill-img {
+    width: 25%;
+    float: left;
+    padding-right: 30px;
+}
+
+.top-cloud {
+    position: absolute;
+    right: 300px;
+    top: 50px
+}
+
+.self-img {
+    height: 12.6rem;
+    margin-top: 10px;
+}
+
+.self-text {
+    color: #EAF6F6;
+}
+
+.btn {
+    background-color: #11999E;
+    color: #EAF6F6;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 10px;
+    line-height: 2;
+}
+
+.footer-link {
+    padding: 10px;
+}
